@@ -1,0 +1,39 @@
+IWL-SWFUpload version 0.6.0
+================
+
+The IWL-SWFUpload package provides a special widget for the IWL library.
+It provides the means for users to upload multiple files to a server,
+using Adobe Flash 9. The package provides the base widget for browsing
+and uploading files, as well as an additional helper widget, for visually
+displaying the queued and uploaded files, as well as their status.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+In order to actually use the library, the javascript and css files will also
+have to be installed in the server's document root. To do that, use the
+'iwl-install' script, which is provided by IWL. It is usually located in '/usr/bin'
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  IWL
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2006-2007  Viktor Kojouharov. All rights reserved.
+
+This module is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself. See perldoc perlartistic.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
